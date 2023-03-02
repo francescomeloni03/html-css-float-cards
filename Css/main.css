@@ -9,14 +9,29 @@ header, div{
 }
 
 
-.box {
+*{
+    box-sizing: border-box;
+}
+
+.box1 {
     background-color: black;
     width: 250px;
     margin-right: 15px;
     margin-bottom: 15px;
     float: left;
+    
 }
 
+
+
+.box{
+    background-color: black;
+    width: 250px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+    margin-left: 40px;
+}
 img {
     height: 4rem;
     float: left;
